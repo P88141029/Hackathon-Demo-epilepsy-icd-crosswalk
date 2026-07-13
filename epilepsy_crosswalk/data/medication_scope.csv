@@ -1,0 +1,4 @@
+﻿medication_id,medication_raw,include_in_mvp,priority,note
+MED001,Phenytoin,TRUE,1,User-scoped; normalize to ingredient only.
+MED002,Carbamazepine,TRUE,2,User-scoped; normalize to ingredient only.
+MED003,Valproic acid,TRUE,3,User-scoped; formulation/salt interchange is not inferred.

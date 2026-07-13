@@ -1,0 +1,4 @@
+﻿eval_id,case_type,synthetic,source_code,source_label_raw,provided_target_code,medication_raw,expected_status,expected_human_review
+EVAL001,normal,TRUE,345.00,"Generalized nonconvulsive epilepsy, not intractable.",,Phenytoin,needs_review,TRUE
+EVAL002,not_found,TRUE,INVALID_ICD9_TEST,Synthetic invalid code,,UNKNOWN_MEDICATION,not_found,FALSE
+EVAL003,conflicting,TRUE,345.90,Synthetic conflicting label,G40.A01,,conflicting,TRUE

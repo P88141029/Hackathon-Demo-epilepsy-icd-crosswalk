@@ -1,0 +1,18 @@
+source_code_system: ICD-9-CM
+mapping_direction: ICD-9-CM_to_ICD-10-CM
+mapping_source_name: CMS 2018 ICD-9-CM to ICD-10-CM General Equivalence Mappings (GEMs)
+mapping_source_version: 2018 final GEMs
+mapping_source_file: sources/mapping/2018_I9gem_scoped_extract.txt
+mapping_user_guide_file: sources/mapping/CMS_GEM_user_guide_notes.md
+mapping_official_url: https://www.cms.gov/medicare/coding/icd10/downloads/2018-icd-10-cm-general-equivalence-mappings.zip
+
+target_code_system: ICD-10-CM
+target_release_name: FY 2026 ICD-10-CM April 1, 2026 release
+target_release_effective_date: 2026-04-01
+target_code_file: sources/icd10/icd10cm_2026_april_scoped_codes.csv
+target_official_url: https://www.cms.gov/files/zip/april-1-2026-code-descriptions-tabular-order.zip
+
+max_medications: 3
+max_drug_evidence_rows_per_medication: 2
+max_revisions: 2
+retrieval_date: 2026-07-12

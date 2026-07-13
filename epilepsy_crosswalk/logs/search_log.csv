@@ -1,0 +1,11 @@
+﻿search_id,search_goal,item_id,source,query_or_lookup_key,search_date,outcome,selected_source_ids,note
+S001,mapping_source,five-code scope,CMS archive + public mirror,"2018 ICD-9-CM to ICD-10-CM GEM rows for 34500,34510,34540,34590,34591",2026-07-12,found,CMS 2018 GEMs; mirror blob d6d6c065...,11 rows retained; binary ZIP unavailable to sandbox.
+S002,code_validation,11 target candidates,CMS FY2026 April release metadata + scoped exact lookup,"G40.A01,G40.A09,G40.309,G40.401,G40.409,G40.201,G40.209,G40.901,G40.909,G40.911,G40.919",2026-07-12,found,icd10cm_2026_april_scoped_codes.csv,Full official ZIP should be rechecked before operational use.
+S003,drug_normalization,MED001,FDA UNII / public identifier lookup,Phenytoin,2026-07-12,found,UNII 6158TKW0C5,Ingredient-level normalization.
+S004,drug_normalization,MED002,FDA UNII / public identifier lookup,Carbamazepine,2026-07-12,found,UNII 33CM23913M,Ingredient-level normalization.
+S005,drug_normalization,MED003,FDA UNII / public identifier lookup,Valproic acid,2026-07-12,found,UNII 614OI1Z5WI,No salt/formulation substitution.
+S006,drug_evidence,MED001,DailyMed,DILANTIN indications and usage,2026-07-12,found,Set ID 8848de76-8d74-4620-bcc7-a86a596e5dd9,Two narrow rows.
+S007,drug_evidence,MED002,DailyMed,TEGRETOL indications and usage,2026-07-12,found,Set ID 8d409411-aa9f-4f3a-a52c-fbcb0c3ec053,Two narrow rows.
+S008,drug_evidence,MED003,MedlinePlus,Valproic acid why prescribed,2026-07-12,found,a682412,Broad statement only; one evidence row.
+S009,mapping_source,INVALID_ICD9_TEST,scoped GEM extract,INVALID_ICD9_TEST,2026-07-12,not_found,,Synthetic eval only.
+S010,drug_normalization,UNKNOWN_MEDICATION,scoped normalization table,UNKNOWN_MEDICATION,2026-07-12,not_found,,Synthetic eval only.

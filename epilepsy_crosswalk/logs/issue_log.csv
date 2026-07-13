@@ -1,0 +1,6 @@
+﻿issue_id,severity,item_id,issue,status,resolution_or_handoff
+ISS001,medium,all mappings,Official CMS ZIP binary could not be downloaded in execution sandbox.,open_review,Scoped rows preserved; compare hashes/rows against official CMS ZIP before operational use.
+ISS002,high,345.00;345.10;345.40;345.90;345.91,All mappings have multiple candidates and approximate=1.,human_review,Medical coder/health information manager must interpret documentation; no candidate selected.
+ISS003,medium,source labels,User raw labels differ in wording from verified ICD-9-CM labels.,human_review,Retain both values and review terminology/version.
+ISS004,medium,MED003,Valproic acid source supports broad seizure use only in opened current page.,human_review,Pharmacist/neurologist review if subtype evidence is required.
+ISS005,low,validator,First validator run failed from a validator schema mismatch.,resolved,Changed lookup field from target_label_verified to target_label; final validation passed.
