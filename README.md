@@ -326,12 +326,11 @@ outputs/source_inventory.csv
 
 ---
 
-## 12. Repository structure
+## 12. epilepsy_crosswalk directory structure
 
 ```text
 .
 ├── AGENT.md
-├── README.md
 ├── MANIFEST.csv
 ├── completion_summary.md
 ├── project_spec.md
